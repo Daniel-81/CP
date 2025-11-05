@@ -139,8 +139,8 @@ function consultarCardToken() {// Consulta com Alias ou Token
         headers: {
                     "Content-Type": "application/json",
                     "MerchantId": midCP,
-                    "Authorization": "Bearer " +bearerTokenCP
-                    // "Access-Control-Allow-Origin": "*"
+                    "Authorization": "Bearer " +bearerTokenCP,
+                    "Access-Control-Allow-Origin": "https://daniel-81.github.io/CP/"
                   }
     })
     .then((response) => {
