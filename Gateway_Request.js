@@ -81,7 +81,7 @@ function criarTokenRef() {
                   "Content-Type": "application/json",
                   "MerchantId": midCP,
                   "Authorization": "Bearer " +bearerTokenCP,
-                  "Access-Control-Allow-Origin": "https://daniel-81.github.io/CP/"
+                  "Access-Control-Allow-Origin": "*"
                 },
       body: JSON.stringify({
         "Alias": document.getElementById("tokenAlias").value,
