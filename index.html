@@ -17,26 +17,8 @@
         <form name="formCofreName" id="formCofreId" method="POST" action="">
           <fieldset id="formCofreCabecario">
             <legend>Cartão Protegido</legend>
-            <div class="opcoesCofre"> <!----------- MENU DE OPÇÕES ------------>
-              <fieldset id="fieldopcoesCofre">
-                <legend>O que deseja fazer?</legend>
-                <div class="metodo">
-                  <div class="criarToken">
-                    <button type="button" class="btn-criar" id="" name="" onClick="showDiv('fieldCriarToken')" value="">
-                      <img id="btn-credito" class="" src="tokenizar3.png" alt="icone-tokenizar-cartao"/>
-                    </button>
-                  </div>
-                  <div class="consultarToken">
-                    <button type="button" class="btn-consultar" id="" name="" onClick="showDiv('fieldConsultaToken')" value="">
-                      <img id="btn-pix" class="img/pix6.png" src="cp-consultar2.png" alt="icone-consultar-token"/>
-                    </button>
-                  </div>
-                </div>
-              </fieldset>
-            </div>
-            <br>
             <div class="classCriarToken">
-              <fieldset id="fieldCriarToken" name="campoExibirCP" hidden>
+              <fieldset id="fieldCriarToken" name="campoExibirCP">
                 <legend>Criando um CardToken</legend>
                 <div class="tokenAlias">
                   <label for="tokenAlias">Alias(opcional):</label>
@@ -59,7 +41,7 @@
                 </div>
                 <br>
                 <div class="button">
-                  <button type="button" class="btn-default custom-btn-send btn-send" id="btnSend" name="btnSend" onClick="validarCamposCP()">Criar</button>
+                  <button type="button" class="btn-default custom-btn-send btn-send" id="btnSend" name="btnSend" onClick="criarTokenRef()">Criar</button>
                   <button type="button" class="btn-default custom-btn-clear btn-clear" id="btnClear" name="btnClear" onClick="limparCP()">Limpar Campos</button>
                 </div>
               </fieldset>
