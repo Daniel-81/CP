@@ -38,7 +38,6 @@ function criarTokenRef() {
       `<strong>Erro:</strong> <br>
       Code: ${data4[0].Code} <br>
       Message: ${data4[0].Message}`;
-      streetFighter.style.display = "none";
     }
     else {
       respCP.innerHTML = null;
@@ -46,7 +45,6 @@ function criarTokenRef() {
         `<strong>Alias/Cartão:</strong> ${data4.Alias} <br><br>
         <strong>CardToken:</strong> ${data4.TokenReference} <br>`
 
-      streetFighter.style.display = "none";
       respCP.style.display = "block";
       window.scrollTo(0, document.body.scrollHeight);
       console.log(data4);
@@ -55,12 +53,10 @@ function criarTokenRef() {
   .catch(error => {
     respCP.style.display = "block";
     respCP.innerHTML += "Ocorreu um erro ao realizar sua solicitação:" + "\n"+"\n" +error.message;
-    streetFighter.style.display = "none";
   })
 }
 function consultarCardToken() {// Consulta com Alias ou Token
   if (document.getElementById("tokenAlias").value != "") {
-    streetFighter.style.display = "block";
     let refToken = document.getElementById("tokenAlias").value;
     fetch("https://cartaoprotegidoapisandbox.braspag.com.br/v1/Alias/_"+refToken+"_/TokenReference", {
         method:"GET",
@@ -89,14 +85,12 @@ function consultarCardToken() {// Consulta com Alias ou Token
         `<strong>Erro:</strong> <br>
         Code: ${data4[0].Code} <br>
         Message: ${data4[0].Message}`;
-        streetFighter.style.display = "none";
       }
       else {
         respCP.innerHTML = null;
         respCP.innerHTML +=
           `<strong>CardToken:</strong> ${data4.TokenReference} <br>`
 
-        streetFighter.style.display = "none";
         respCP.style.display = "block";
         window.scrollTo(0, document.body.scrollHeight);
         console.log(data4);
@@ -105,12 +99,10 @@ function consultarCardToken() {// Consulta com Alias ou Token
     .catch(error => {
       respCP.style.display = "block";
       respCP.innerHTML += "Ocorreu um erro ao realizar sua solicitação:" + "\n"+"\n" +error.message;
-      streetFighter.style.display = "none";
     })
   }
   else {
     let refToken = document.getElementById("tokenReference").value;
-    streetFighter.style.display = "block";
     fetch("https://cartaoprotegidoapisandbox.braspag.com.br/v1/Token/"+refToken, {
         method:"GET",
         headers: {
@@ -138,7 +130,6 @@ function consultarCardToken() {// Consulta com Alias ou Token
         `<strong>Erro:</strong> <br>
         Code: ${data4[0].Code} <br>
         Message: ${data4[0].Message}`;
-        streetFighter.style.display = "none";
       }
       else {
         respCP.innerHTML = null;
@@ -149,7 +140,6 @@ function consultarCardToken() {// Consulta com Alias ou Token
           <strong>Exipração:</strong> ${data4.ExpirationDate} <br>
           <strong>Holder:</strong> ${data4.Holder} <br>`
 
-        streetFighter.style.display = "none";
         document.getElementById("btn-consulta-token").style.display = "block";
         respCP.style.display = "block";
         window.scrollTo(0, document.body.scrollHeight);
@@ -159,7 +149,6 @@ function consultarCardToken() {// Consulta com Alias ou Token
     .catch(error => {
       respCP.style.display = "block";
       respCP.innerHTML += "Ocorreu um erro ao realizar sua solicitação:" + "\n"+"\n" +error.message;
-      streetFighter.style.display = "none";
     })
   }
 }
