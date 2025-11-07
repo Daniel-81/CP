@@ -7,7 +7,7 @@ function criarTokenRef() {
       headers: {
                   "Content-Type": "application/json",
                   "MerchantId": "DA12397C-A214-4D2C-BD8F-653F2AFC4538",
-                  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6ImJWS0RGb1dIRTVha0szeXNqSjJScGpxZFZlRSJ9.eyJjbGllbnRfbmFtZSI6ImRhMTIzOTdjLWEyMTQtNGQyYy1iZDhmLTY1M2YyYWZjNDUzOCBDUCIsImNsaWVudF9pZCI6Ijc0NTk5NzA0LTY5MTgtNGJiNC1iMzE3LTg3NjE0MzAwOWExNSIsInNjb3BlcyI6IntcIlNjb3BlXCI6XCJDYXJ0YW9Qcm90ZWdpZG9BcGlcIixcIkNsYWltc1wiOlt7XCJOYW1lXCI6XCJNZXJjaGFudElkXCIsXCJWYWx1ZXNcIjpbXCJkYTEyMzk3Yy1hMjE0LTRkMmMtYmQ4Zi02NTNmMmFmYzQ1MzhcIl19XX0iLCJyb2xlIjoiQ2FydGFvUHJvdGVnaWRvQXBpIiwiaXNzIjoiaHR0cHM6Ly9hdXRoc2FuZGJveC5icmFzcGFnLmNvbS5iciIsImF1ZCI6IlVWUXhjVUEyY1NKMWZrUTNJVUVuT2lJM2RtOXRmbWw1ZWxCNUpVVXVRV2c9IiwiZXhwIjoxNzYyNTU5MzkyLCJuYmYiOjE3NjI0NzI5OTJ9.JIM0YAAEoiA_wMztfrgfrJKmctUBgxKlnmbE7wNcNumZlVUdYAeVxN4Gu7iCuYE2PhBodjAaBzK4cCQlIXoao-Go-4RvMieBeX9hW1jZcV0unQQ4t4LmrEtUxLz4MI9jMZ8tVZgDhAarr6loBHlddhBfsrE3uEUbH91u3j456NeHOrfnT_yM9hUv5tFGo-KhWPIXHHfAL0gWhE5xr7OmWz-BZVcLrpEj4YTugutia75knn7pam2xZ19rK1YZgLUjUF0sAFQk9KboJwslBoElfOATH6SS9NLY1XxJR0bjzVn6sviduZflz8_b9Fm0IaY74wBTikxhdQWs5WZpCFfchQ",
+                  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6ImJWS0RGb1dIRTVha0szeXNqSjJScGpxZFZlRSJ9.eyJjbGllbnRfbmFtZSI6ImRhMTIzOTdjLWEyMTQtNGQyYy1iZDhmLTY1M2YyYWZjNDUzOCBDUCIsImNsaWVudF9pZCI6Ijc0NTk5NzA0LTY5MTgtNGJiNC1iMzE3LTg3NjE0MzAwOWExNSIsInNjb3BlcyI6IntcIlNjb3BlXCI6XCJDYXJ0YW9Qcm90ZWdpZG9BcGlcIixcIkNsYWltc1wiOlt7XCJOYW1lXCI6XCJNZXJjaGFudElkXCIsXCJWYWx1ZXNcIjpbXCJkYTEyMzk3Yy1hMjE0LTRkMmMtYmQ4Zi02NTNmMmFmYzQ1MzhcIl19XX0iLCJyb2xlIjoiQ2FydGFvUHJvdGVnaWRvQXBpIiwiaXNzIjoiaHR0cHM6Ly9hdXRoc2FuZGJveC5icmFzcGFnLmNvbS5iciIsImF1ZCI6IlVWUXhjVUEyY1NKMWZrUTNJVUVuT2lJM2RtOXRmbWw1ZWxCNUpVVXVRV2c9IiwiZXhwIjoxNzYyNjQ1NTUxLCJuYmYiOjE3NjI1NTkxNTF9.idRrcCXx1gALgdBCIIljzhcz27JCrCDfEEmebAmTkL1GoJxLCTlEwdgB4IdtnEE3J2G-QFV1jDUT7zoKpt3RxO-ggJpxa6kQoeJbpa0EqDToMqXU-VR-8Y5JaKeDtz_--XbTpoJ3G16eSUlqIbOR26-kBuvSxcki4brxM-qLtCVnUXrzjOerZmHA2SLFqdy-3LTiD9z6nt3ego-jiEUuFKEq_30WPDTuFHz_RtMwsVF7vNJ3rSiDt59nCvG_Q912hJnEK6PPdM-prT2qb6SwrroHzDKYl32DKD18N5ZD0d_O4im-O3v68hTdO1MUZcDUqBqH2etONNhp_7N8PSqQTw",
 
                   "Cache-Control":"no-cache, max-age=0",
                   "Pragma": "no-cache",
@@ -15,13 +15,7 @@ function criarTokenRef() {
                   "Accept": "*/*",
                   "Accept-Encoding": "gzip",
                   "Host": "cartaoprotegidoapisandbox.braspag.com.br",
-                  "User-Agent": "PostmanRuntime/7.49.1",
-                  "Content-Length": "195",
-                  "X-Forwarded-Host": "cartaoprotegidoapisandbox.braspag.com.br",
-                  "X-Forwarded-Port": "443",
-                  "X-Forwarded-Proto": "https",
-                  "X-Forwarded-Scheme": "https",
-                  "X-Scheme": "https"
+                  "X-Forwarded-Host": "cartaoprotegidoapisandbox.braspag.com.br"
                 },
       body: JSON.stringify({
         "Alias": "Teste002",
@@ -63,6 +57,111 @@ function criarTokenRef() {
     respCP.innerHTML += "Ocorreu um erro ao realizar sua solicitação:" + "\n"+"\n" +error.message;
     streetFighter.style.display = "none";
   })
+}
+function consultarCardToken() {// Consulta com Alias ou Token
+  if (document.getElementById("tokenAlias").value != "") {
+    streetFighter.style.display = "block";
+    let refToken = document.getElementById("tokenAlias").value;
+    fetch("https://cartaoprotegidoapisandbox.braspag.com.br/v1/Alias/_"+refToken+"_/TokenReference", {
+        method:"GET",
+        headers: {
+                  "Content-Type": "application/json",
+                  "MerchantId": "DA12397C-A214-4D2C-BD8F-653F2AFC4538",
+                  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6ImJWS0RGb1dIRTVha0szeXNqSjJScGpxZFZlRSJ9.eyJjbGllbnRfbmFtZSI6ImRhMTIzOTdjLWEyMTQtNGQyYy1iZDhmLTY1M2YyYWZjNDUzOCBDUCIsImNsaWVudF9pZCI6Ijc0NTk5NzA0LTY5MTgtNGJiNC1iMzE3LTg3NjE0MzAwOWExNSIsInNjb3BlcyI6IntcIlNjb3BlXCI6XCJDYXJ0YW9Qcm90ZWdpZG9BcGlcIixcIkNsYWltc1wiOlt7XCJOYW1lXCI6XCJNZXJjaGFudElkXCIsXCJWYWx1ZXNcIjpbXCJkYTEyMzk3Yy1hMjE0LTRkMmMtYmQ4Zi02NTNmMmFmYzQ1MzhcIl19XX0iLCJyb2xlIjoiQ2FydGFvUHJvdGVnaWRvQXBpIiwiaXNzIjoiaHR0cHM6Ly9hdXRoc2FuZGJveC5icmFzcGFnLmNvbS5iciIsImF1ZCI6IlVWUXhjVUEyY1NKMWZrUTNJVUVuT2lJM2RtOXRmbWw1ZWxCNUpVVXVRV2c9IiwiZXhwIjoxNzYyNjQ1NTUxLCJuYmYiOjE3NjI1NTkxNTF9.idRrcCXx1gALgdBCIIljzhcz27JCrCDfEEmebAmTkL1GoJxLCTlEwdgB4IdtnEE3J2G-QFV1jDUT7zoKpt3RxO-ggJpxa6kQoeJbpa0EqDToMqXU-VR-8Y5JaKeDtz_--XbTpoJ3G16eSUlqIbOR26-kBuvSxcki4brxM-qLtCVnUXrzjOerZmHA2SLFqdy-3LTiD9z6nt3ego-jiEUuFKEq_30WPDTuFHz_RtMwsVF7vNJ3rSiDt59nCvG_Q912hJnEK6PPdM-prT2qb6SwrroHzDKYl32DKD18N5ZD0d_O4im-O3v68hTdO1MUZcDUqBqH2etONNhp_7N8PSqQTw",
+
+                  "Cache-Control":"no-cache, max-age=0",
+                  "Pragma": "no-cache",
+                  "Via": "1.1 v1-akamaitech.net(ghost) (AkamaiGHost), 1.1 akamai.net(ghost) (AkamaiGHost)",
+                  "Accept": "*/*",
+                  "Accept-Encoding": "gzip",
+                  "Host": "cartaoprotegidoapisandbox.braspag.com.br",
+                  "X-Forwarded-Host": "cartaoprotegidoapisandbox.braspag.com.br"
+                  }
+    })
+    .then((response) => {
+      if (!response.ok) {badReq = "errr"; console.log(response);}
+      return response.json()//converte para json
+    })
+    .then((data4) => {
+      if (badReq == "errr") {
+        respCP.style.display = "block";
+        respCP.innerHTML += 
+        `<strong>Erro:</strong> <br>
+        Code: ${data4[0].Code} <br>
+        Message: ${data4[0].Message}`;
+        streetFighter.style.display = "none";
+      }
+      else {
+        respCP.innerHTML = null;
+        respCP.innerHTML +=
+          `<strong>CardToken:</strong> ${data4.TokenReference} <br>`
+
+        streetFighter.style.display = "none";
+        respCP.style.display = "block";
+        window.scrollTo(0, document.body.scrollHeight);
+        console.log(data4);
+      }
+    })
+    .catch(error => {
+      respCP.style.display = "block";
+      respCP.innerHTML += "Ocorreu um erro ao realizar sua solicitação:" + "\n"+"\n" +error.message;
+      streetFighter.style.display = "none";
+    })
+  }
+  else {
+    let refToken = document.getElementById("tokenReference").value;
+    streetFighter.style.display = "block";
+    fetch("https://cartaoprotegidoapisandbox.braspag.com.br/v1/Token/"+refToken, {
+        method:"GET",
+        headers: {
+                  "Content-Type": "application/json",
+                  "MerchantId": "DA12397C-A214-4D2C-BD8F-653F2AFC4538",
+                  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6ImJWS0RGb1dIRTVha0szeXNqSjJScGpxZFZlRSJ9.eyJjbGllbnRfbmFtZSI6ImRhMTIzOTdjLWEyMTQtNGQyYy1iZDhmLTY1M2YyYWZjNDUzOCBDUCIsImNsaWVudF9pZCI6Ijc0NTk5NzA0LTY5MTgtNGJiNC1iMzE3LTg3NjE0MzAwOWExNSIsInNjb3BlcyI6IntcIlNjb3BlXCI6XCJDYXJ0YW9Qcm90ZWdpZG9BcGlcIixcIkNsYWltc1wiOlt7XCJOYW1lXCI6XCJNZXJjaGFudElkXCIsXCJWYWx1ZXNcIjpbXCJkYTEyMzk3Yy1hMjE0LTRkMmMtYmQ4Zi02NTNmMmFmYzQ1MzhcIl19XX0iLCJyb2xlIjoiQ2FydGFvUHJvdGVnaWRvQXBpIiwiaXNzIjoiaHR0cHM6Ly9hdXRoc2FuZGJveC5icmFzcGFnLmNvbS5iciIsImF1ZCI6IlVWUXhjVUEyY1NKMWZrUTNJVUVuT2lJM2RtOXRmbWw1ZWxCNUpVVXVRV2c9IiwiZXhwIjoxNzYyNjQ1NTUxLCJuYmYiOjE3NjI1NTkxNTF9.idRrcCXx1gALgdBCIIljzhcz27JCrCDfEEmebAmTkL1GoJxLCTlEwdgB4IdtnEE3J2G-QFV1jDUT7zoKpt3RxO-ggJpxa6kQoeJbpa0EqDToMqXU-VR-8Y5JaKeDtz_--XbTpoJ3G16eSUlqIbOR26-kBuvSxcki4brxM-qLtCVnUXrzjOerZmHA2SLFqdy-3LTiD9z6nt3ego-jiEUuFKEq_30WPDTuFHz_RtMwsVF7vNJ3rSiDt59nCvG_Q912hJnEK6PPdM-prT2qb6SwrroHzDKYl32DKD18N5ZD0d_O4im-O3v68hTdO1MUZcDUqBqH2etONNhp_7N8PSqQTw",
+
+                  "Cache-Control":"no-cache, max-age=0",
+                  "Pragma": "no-cache",
+                  "Via": "1.1 v1-akamaitech.net(ghost) (AkamaiGHost), 1.1 akamai.net(ghost) (AkamaiGHost)",
+                  "Accept": "*/*",
+                  "Accept-Encoding": "gzip",
+                  "Host": "cartaoprotegidoapisandbox.braspag.com.br",
+                  "X-Forwarded-Host": "cartaoprotegidoapisandbox.braspag.com.br"
+                  }
+    })
+    .then((response) => {
+      if (!response.ok) {badReq = "errr"; console.log(response);}
+      return response.json()//converte para json
+    })
+    .then((data4) => {
+      if (badReq == "errr") {
+        respCP.style.display = "block";
+        respCP.innerHTML += 
+        `<strong>Erro:</strong> <br>
+        Code: ${data4[0].Code} <br>
+        Message: ${data4[0].Message}`;
+        streetFighter.style.display = "none";
+      }
+      else {
+        respCP.innerHTML = null;
+        respCP.innerHTML +=
+          `<strong>CardToken:</strong> ${data4.TokenReference} <br><br>
+          <strong>Status:</strong> ${data4.Status} <br><br>
+          <strong>Número do Cartão:</strong> ${data4.Number} <br>
+          <strong>Exipração:</strong> ${data4.ExpirationDate} <br>
+          <strong>Holder:</strong> ${data4.Holder} <br>`
+
+        streetFighter.style.display = "none";
+        document.getElementById("btn-consulta-token").style.display = "block";
+        respCP.style.display = "block";
+        window.scrollTo(0, document.body.scrollHeight);
+        console.log(data4);
+      }
+    })
+    .catch(error => {
+      respCP.style.display = "block";
+      respCP.innerHTML += "Ocorreu um erro ao realizar sua solicitação:" + "\n"+"\n" +error.message;
+      streetFighter.style.display = "none";
+    })
+  }
 }
 function limparCP() {
   document.getElementById("formCofreId").reset();

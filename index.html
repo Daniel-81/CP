@@ -47,7 +47,7 @@
               </fieldset>
             </div>
             <div class="classConsultaToken">
-              <fieldset id="fieldConsultaToken" name="campoExibirCP" hidden>
+              <fieldset id="fieldConsultaToken" name="campoExibirCP">
                 <legend>Consultar um CardToken</legend>
                 <div class="tokenAliasConsulta">
                   <label for="tokenAliasConsulta">Alias:</label>
@@ -59,7 +59,7 @@
                   <input type="text" id="tokenReference" name="inputtoken" placeholder="CardToken" class="" size="45" maxlength="36" minlength="36" value="">
                 </div>
                 <br>
-                <button type="button" class="btn-default custom-btn-send btn-send" onClick="validarGetCP()">Consultar</button>
+                <button type="button" class="btn-default custom-btn-send btn-send" onClick="consultarCardToken()">Consultar</button>
                 <div class="button" id="btn-consulta-token" hidden>
                   <button type="button" class="btn-default btn-excluir" onClick="validarESRcp('Excluir')">Excluir</button>
                   <button type="button" class="btn-default btn-rotate" onClick="validarESRcp('Suspender')">Suspender</button>
