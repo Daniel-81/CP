@@ -8,7 +8,20 @@ function criarTokenRef() {
                   "Content-Type": "application/json",
                   "MerchantId": "DA12397C-A214-4D2C-BD8F-653F2AFC4538",
                   "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6ImJWS0RGb1dIRTVha0szeXNqSjJScGpxZFZlRSJ9.eyJjbGllbnRfbmFtZSI6ImRhMTIzOTdjLWEyMTQtNGQyYy1iZDhmLTY1M2YyYWZjNDUzOCBDUCIsImNsaWVudF9pZCI6Ijc0NTk5NzA0LTY5MTgtNGJiNC1iMzE3LTg3NjE0MzAwOWExNSIsInNjb3BlcyI6IntcIlNjb3BlXCI6XCJDYXJ0YW9Qcm90ZWdpZG9BcGlcIixcIkNsYWltc1wiOlt7XCJOYW1lXCI6XCJNZXJjaGFudElkXCIsXCJWYWx1ZXNcIjpbXCJkYTEyMzk3Yy1hMjE0LTRkMmMtYmQ4Zi02NTNmMmFmYzQ1MzhcIl19XX0iLCJyb2xlIjoiQ2FydGFvUHJvdGVnaWRvQXBpIiwiaXNzIjoiaHR0cHM6Ly9hdXRoc2FuZGJveC5icmFzcGFnLmNvbS5iciIsImF1ZCI6IlVWUXhjVUEyY1NKMWZrUTNJVUVuT2lJM2RtOXRmbWw1ZWxCNUpVVXVRV2c9IiwiZXhwIjoxNzYyNTU5MzkyLCJuYmYiOjE3NjI0NzI5OTJ9.JIM0YAAEoiA_wMztfrgfrJKmctUBgxKlnmbE7wNcNumZlVUdYAeVxN4Gu7iCuYE2PhBodjAaBzK4cCQlIXoao-Go-4RvMieBeX9hW1jZcV0unQQ4t4LmrEtUxLz4MI9jMZ8tVZgDhAarr6loBHlddhBfsrE3uEUbH91u3j456NeHOrfnT_yM9hUv5tFGo-KhWPIXHHfAL0gWhE5xr7OmWz-BZVcLrpEj4YTugutia75knn7pam2xZ19rK1YZgLUjUF0sAFQk9KboJwslBoElfOATH6SS9NLY1XxJR0bjzVn6sviduZflz8_b9Fm0IaY74wBTikxhdQWs5WZpCFfchQ",
-                  "Access-Control-Allow-Origin": "*"
+
+                  "Cache-Control":"no-cache, max-age=0",
+                  "Pragma": "no-cache",
+                  "Via": "1.1 v1-akamaitech.net(ghost) (AkamaiGHost), 1.1 akamai.net(ghost) (AkamaiGHost)",
+                  "Accept": "*/*",
+                  "Accept-Encoding": "gzip",
+                  "Host": "cartaoprotegidoapisandbox.braspag.com.br",
+                  "User-Agent": "PostmanRuntime/7.49.1",
+                  "Content-Length": "195",
+                  "X-Forwarded-Host": "cartaoprotegidoapisandbox.braspag.com.br",
+                  "X-Forwarded-Port": "443",
+                  "X-Forwarded-Proto": "https",
+                  "X-Forwarded-Scheme": "https",
+                  "X-Scheme": "https"
                 },
       body: JSON.stringify({
         "Alias": "Teste002",
