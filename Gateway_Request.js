@@ -49,8 +49,8 @@ function criarTokenRef() {
 }
 function consultarCardToken() {// Consulta com Alias ou Token
   if (document.getElementById("tokenAlias").value != "") {
-    let refToken = document.getElementById("tokenAlias").value;
-    fetch("https://cartaoprotegidoapisandbox.braspag.com.br/v1/Alias/_"+refToken+"_/TokenReference", {
+    // let refToken = document.getElementById("tokenAlias").value;
+    fetch("https://cartaoprotegidoapisandbox.braspag.com.br/v1/Alias/_Teste001_/TokenReference", {
         method:"GET",
         headers: {
                   "Content-Type": "application/json",
@@ -86,8 +86,8 @@ function consultarCardToken() {// Consulta com Alias ou Token
     })
   }
   else {
-    let refToken = document.getElementById("tokenReference").value;
-    fetch("https://cartaoprotegidoapisandbox.braspag.com.br/v1/Token/"+refToken, {
+    // let refToken = document.getElementById("tokenReference").value;
+    fetch("https://cartaoprotegidoapisandbox.braspag.com.br/v1/Token/cfdc759e-8f0e-42c9-a7e2-c6b94a62baf3", {
         method:"GET",
         headers: {
                   "Content-Type": "application/json",
