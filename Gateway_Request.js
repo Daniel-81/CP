@@ -7,15 +7,7 @@ function criarTokenRef() {
       headers: {
                   "Content-Type": "application/json",
                   "MerchantId": "DA12397C-A214-4D2C-BD8F-653F2AFC4538",
-                  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6ImJWS0RGb1dIRTVha0szeXNqSjJScGpxZFZlRSJ9.eyJjbGllbnRfbmFtZSI6ImRhMTIzOTdjLWEyMTQtNGQyYy1iZDhmLTY1M2YyYWZjNDUzOCBDUCIsImNsaWVudF9pZCI6Ijc0NTk5NzA0LTY5MTgtNGJiNC1iMzE3LTg3NjE0MzAwOWExNSIsInNjb3BlcyI6IntcIlNjb3BlXCI6XCJDYXJ0YW9Qcm90ZWdpZG9BcGlcIixcIkNsYWltc1wiOlt7XCJOYW1lXCI6XCJNZXJjaGFudElkXCIsXCJWYWx1ZXNcIjpbXCJkYTEyMzk3Yy1hMjE0LTRkMmMtYmQ4Zi02NTNmMmFmYzQ1MzhcIl19XX0iLCJyb2xlIjoiQ2FydGFvUHJvdGVnaWRvQXBpIiwiaXNzIjoiaHR0cHM6Ly9hdXRoc2FuZGJveC5icmFzcGFnLmNvbS5iciIsImF1ZCI6IlVWUXhjVUEyY1NKMWZrUTNJVUVuT2lJM2RtOXRmbWw1ZWxCNUpVVXVRV2c9IiwiZXhwIjoxNzYyNjQ1NTUxLCJuYmYiOjE3NjI1NTkxNTF9.idRrcCXx1gALgdBCIIljzhcz27JCrCDfEEmebAmTkL1GoJxLCTlEwdgB4IdtnEE3J2G-QFV1jDUT7zoKpt3RxO-ggJpxa6kQoeJbpa0EqDToMqXU-VR-8Y5JaKeDtz_--XbTpoJ3G16eSUlqIbOR26-kBuvSxcki4brxM-qLtCVnUXrzjOerZmHA2SLFqdy-3LTiD9z6nt3ego-jiEUuFKEq_30WPDTuFHz_RtMwsVF7vNJ3rSiDt59nCvG_Q912hJnEK6PPdM-prT2qb6SwrroHzDKYl32DKD18N5ZD0d_O4im-O3v68hTdO1MUZcDUqBqH2etONNhp_7N8PSqQTw",
-
-                  "Cache-Control":"no-cache, max-age=0",
-                  "Pragma": "no-cache",
-                  "Via": "1.1 v1-akamaitech.net(ghost) (AkamaiGHost), 1.1 akamai.net(ghost) (AkamaiGHost)",
-                  "Accept": "*/*",
-                  "Accept-Encoding": "gzip",
-                  "Host": "cartaoprotegidoapisandbox.braspag.com.br",
-                  "X-Forwarded-Host": "cartaoprotegidoapisandbox.braspag.com.br"
+                  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6ImJWS0RGb1dIRTVha0szeXNqSjJScGpxZFZlRSJ9.eyJjbGllbnRfbmFtZSI6ImRhMTIzOTdjLWEyMTQtNGQyYy1iZDhmLTY1M2YyYWZjNDUzOCBDUCIsImNsaWVudF9pZCI6Ijc0NTk5NzA0LTY5MTgtNGJiNC1iMzE3LTg3NjE0MzAwOWExNSIsInNjb3BlcyI6IntcIlNjb3BlXCI6XCJDYXJ0YW9Qcm90ZWdpZG9BcGlcIixcIkNsYWltc1wiOlt7XCJOYW1lXCI6XCJNZXJjaGFudElkXCIsXCJWYWx1ZXNcIjpbXCJkYTEyMzk3Yy1hMjE0LTRkMmMtYmQ4Zi02NTNmMmFmYzQ1MzhcIl19XX0iLCJyb2xlIjoiQ2FydGFvUHJvdGVnaWRvQXBpIiwiaXNzIjoiaHR0cHM6Ly9hdXRoc2FuZGJveC5icmFzcGFnLmNvbS5iciIsImF1ZCI6IlVWUXhjVUEyY1NKMWZrUTNJVUVuT2lJM2RtOXRmbWw1ZWxCNUpVVXVRV2c9IiwiZXhwIjoxNzYyNjQ1NTUxLCJuYmYiOjE3NjI1NTkxNTF9.idRrcCXx1gALgdBCIIljzhcz27JCrCDfEEmebAmTkL1GoJxLCTlEwdgB4IdtnEE3J2G-QFV1jDUT7zoKpt3RxO-ggJpxa6kQoeJbpa0EqDToMqXU-VR-8Y5JaKeDtz_--XbTpoJ3G16eSUlqIbOR26-kBuvSxcki4brxM-qLtCVnUXrzjOerZmHA2SLFqdy-3LTiD9z6nt3ego-jiEUuFKEq_30WPDTuFHz_RtMwsVF7vNJ3rSiDt59nCvG_Q912hJnEK6PPdM-prT2qb6SwrroHzDKYl32DKD18N5ZD0d_O4im-O3v68hTdO1MUZcDUqBqH2etONNhp_7N8PSqQTw"
                 },
       body: JSON.stringify({
         "Alias": "Teste002",
@@ -63,15 +55,7 @@ function consultarCardToken() {// Consulta com Alias ou Token
         headers: {
                   "Content-Type": "application/json",
                   "MerchantId": "DA12397C-A214-4D2C-BD8F-653F2AFC4538",
-                  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6ImJWS0RGb1dIRTVha0szeXNqSjJScGpxZFZlRSJ9.eyJjbGllbnRfbmFtZSI6ImRhMTIzOTdjLWEyMTQtNGQyYy1iZDhmLTY1M2YyYWZjNDUzOCBDUCIsImNsaWVudF9pZCI6Ijc0NTk5NzA0LTY5MTgtNGJiNC1iMzE3LTg3NjE0MzAwOWExNSIsInNjb3BlcyI6IntcIlNjb3BlXCI6XCJDYXJ0YW9Qcm90ZWdpZG9BcGlcIixcIkNsYWltc1wiOlt7XCJOYW1lXCI6XCJNZXJjaGFudElkXCIsXCJWYWx1ZXNcIjpbXCJkYTEyMzk3Yy1hMjE0LTRkMmMtYmQ4Zi02NTNmMmFmYzQ1MzhcIl19XX0iLCJyb2xlIjoiQ2FydGFvUHJvdGVnaWRvQXBpIiwiaXNzIjoiaHR0cHM6Ly9hdXRoc2FuZGJveC5icmFzcGFnLmNvbS5iciIsImF1ZCI6IlVWUXhjVUEyY1NKMWZrUTNJVUVuT2lJM2RtOXRmbWw1ZWxCNUpVVXVRV2c9IiwiZXhwIjoxNzYyNjQ1NTUxLCJuYmYiOjE3NjI1NTkxNTF9.idRrcCXx1gALgdBCIIljzhcz27JCrCDfEEmebAmTkL1GoJxLCTlEwdgB4IdtnEE3J2G-QFV1jDUT7zoKpt3RxO-ggJpxa6kQoeJbpa0EqDToMqXU-VR-8Y5JaKeDtz_--XbTpoJ3G16eSUlqIbOR26-kBuvSxcki4brxM-qLtCVnUXrzjOerZmHA2SLFqdy-3LTiD9z6nt3ego-jiEUuFKEq_30WPDTuFHz_RtMwsVF7vNJ3rSiDt59nCvG_Q912hJnEK6PPdM-prT2qb6SwrroHzDKYl32DKD18N5ZD0d_O4im-O3v68hTdO1MUZcDUqBqH2etONNhp_7N8PSqQTw",
-
-                  "Cache-Control":"no-cache, max-age=0",
-                  "Pragma": "no-cache",
-                  "Via": "1.1 v1-akamaitech.net(ghost) (AkamaiGHost), 1.1 akamai.net(ghost) (AkamaiGHost)",
-                  "Accept": "*/*",
-                  "Accept-Encoding": "gzip",
-                  "Host": "cartaoprotegidoapisandbox.braspag.com.br",
-                  "X-Forwarded-Host": "cartaoprotegidoapisandbox.braspag.com.br"
+                  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6ImJWS0RGb1dIRTVha0szeXNqSjJScGpxZFZlRSJ9.eyJjbGllbnRfbmFtZSI6ImRhMTIzOTdjLWEyMTQtNGQyYy1iZDhmLTY1M2YyYWZjNDUzOCBDUCIsImNsaWVudF9pZCI6Ijc0NTk5NzA0LTY5MTgtNGJiNC1iMzE3LTg3NjE0MzAwOWExNSIsInNjb3BlcyI6IntcIlNjb3BlXCI6XCJDYXJ0YW9Qcm90ZWdpZG9BcGlcIixcIkNsYWltc1wiOlt7XCJOYW1lXCI6XCJNZXJjaGFudElkXCIsXCJWYWx1ZXNcIjpbXCJkYTEyMzk3Yy1hMjE0LTRkMmMtYmQ4Zi02NTNmMmFmYzQ1MzhcIl19XX0iLCJyb2xlIjoiQ2FydGFvUHJvdGVnaWRvQXBpIiwiaXNzIjoiaHR0cHM6Ly9hdXRoc2FuZGJveC5icmFzcGFnLmNvbS5iciIsImF1ZCI6IlVWUXhjVUEyY1NKMWZrUTNJVUVuT2lJM2RtOXRmbWw1ZWxCNUpVVXVRV2c9IiwiZXhwIjoxNzYyNjQ1NTUxLCJuYmYiOjE3NjI1NTkxNTF9.idRrcCXx1gALgdBCIIljzhcz27JCrCDfEEmebAmTkL1GoJxLCTlEwdgB4IdtnEE3J2G-QFV1jDUT7zoKpt3RxO-ggJpxa6kQoeJbpa0EqDToMqXU-VR-8Y5JaKeDtz_--XbTpoJ3G16eSUlqIbOR26-kBuvSxcki4brxM-qLtCVnUXrzjOerZmHA2SLFqdy-3LTiD9z6nt3ego-jiEUuFKEq_30WPDTuFHz_RtMwsVF7vNJ3rSiDt59nCvG_Q912hJnEK6PPdM-prT2qb6SwrroHzDKYl32DKD18N5ZD0d_O4im-O3v68hTdO1MUZcDUqBqH2etONNhp_7N8PSqQTw"
                   }
     })
     .then((response) => {
@@ -108,15 +92,7 @@ function consultarCardToken() {// Consulta com Alias ou Token
         headers: {
                   "Content-Type": "application/json",
                   "MerchantId": "DA12397C-A214-4D2C-BD8F-653F2AFC4538",
-                  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6ImJWS0RGb1dIRTVha0szeXNqSjJScGpxZFZlRSJ9.eyJjbGllbnRfbmFtZSI6ImRhMTIzOTdjLWEyMTQtNGQyYy1iZDhmLTY1M2YyYWZjNDUzOCBDUCIsImNsaWVudF9pZCI6Ijc0NTk5NzA0LTY5MTgtNGJiNC1iMzE3LTg3NjE0MzAwOWExNSIsInNjb3BlcyI6IntcIlNjb3BlXCI6XCJDYXJ0YW9Qcm90ZWdpZG9BcGlcIixcIkNsYWltc1wiOlt7XCJOYW1lXCI6XCJNZXJjaGFudElkXCIsXCJWYWx1ZXNcIjpbXCJkYTEyMzk3Yy1hMjE0LTRkMmMtYmQ4Zi02NTNmMmFmYzQ1MzhcIl19XX0iLCJyb2xlIjoiQ2FydGFvUHJvdGVnaWRvQXBpIiwiaXNzIjoiaHR0cHM6Ly9hdXRoc2FuZGJveC5icmFzcGFnLmNvbS5iciIsImF1ZCI6IlVWUXhjVUEyY1NKMWZrUTNJVUVuT2lJM2RtOXRmbWw1ZWxCNUpVVXVRV2c9IiwiZXhwIjoxNzYyNjQ1NTUxLCJuYmYiOjE3NjI1NTkxNTF9.idRrcCXx1gALgdBCIIljzhcz27JCrCDfEEmebAmTkL1GoJxLCTlEwdgB4IdtnEE3J2G-QFV1jDUT7zoKpt3RxO-ggJpxa6kQoeJbpa0EqDToMqXU-VR-8Y5JaKeDtz_--XbTpoJ3G16eSUlqIbOR26-kBuvSxcki4brxM-qLtCVnUXrzjOerZmHA2SLFqdy-3LTiD9z6nt3ego-jiEUuFKEq_30WPDTuFHz_RtMwsVF7vNJ3rSiDt59nCvG_Q912hJnEK6PPdM-prT2qb6SwrroHzDKYl32DKD18N5ZD0d_O4im-O3v68hTdO1MUZcDUqBqH2etONNhp_7N8PSqQTw",
-
-                  "Cache-Control":"no-cache, max-age=0",
-                  "Pragma": "no-cache",
-                  "Via": "1.1 v1-akamaitech.net(ghost) (AkamaiGHost), 1.1 akamai.net(ghost) (AkamaiGHost)",
-                  "Accept": "*/*",
-                  "Accept-Encoding": "gzip",
-                  "Host": "cartaoprotegidoapisandbox.braspag.com.br",
-                  "X-Forwarded-Host": "cartaoprotegidoapisandbox.braspag.com.br"
+                  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6ImJWS0RGb1dIRTVha0szeXNqSjJScGpxZFZlRSJ9.eyJjbGllbnRfbmFtZSI6ImRhMTIzOTdjLWEyMTQtNGQyYy1iZDhmLTY1M2YyYWZjNDUzOCBDUCIsImNsaWVudF9pZCI6Ijc0NTk5NzA0LTY5MTgtNGJiNC1iMzE3LTg3NjE0MzAwOWExNSIsInNjb3BlcyI6IntcIlNjb3BlXCI6XCJDYXJ0YW9Qcm90ZWdpZG9BcGlcIixcIkNsYWltc1wiOlt7XCJOYW1lXCI6XCJNZXJjaGFudElkXCIsXCJWYWx1ZXNcIjpbXCJkYTEyMzk3Yy1hMjE0LTRkMmMtYmQ4Zi02NTNmMmFmYzQ1MzhcIl19XX0iLCJyb2xlIjoiQ2FydGFvUHJvdGVnaWRvQXBpIiwiaXNzIjoiaHR0cHM6Ly9hdXRoc2FuZGJveC5icmFzcGFnLmNvbS5iciIsImF1ZCI6IlVWUXhjVUEyY1NKMWZrUTNJVUVuT2lJM2RtOXRmbWw1ZWxCNUpVVXVRV2c9IiwiZXhwIjoxNzYyNjQ1NTUxLCJuYmYiOjE3NjI1NTkxNTF9.idRrcCXx1gALgdBCIIljzhcz27JCrCDfEEmebAmTkL1GoJxLCTlEwdgB4IdtnEE3J2G-QFV1jDUT7zoKpt3RxO-ggJpxa6kQoeJbpa0EqDToMqXU-VR-8Y5JaKeDtz_--XbTpoJ3G16eSUlqIbOR26-kBuvSxcki4brxM-qLtCVnUXrzjOerZmHA2SLFqdy-3LTiD9z6nt3ego-jiEUuFKEq_30WPDTuFHz_RtMwsVF7vNJ3rSiDt59nCvG_Q912hJnEK6PPdM-prT2qb6SwrroHzDKYl32DKD18N5ZD0d_O4im-O3v68hTdO1MUZcDUqBqH2etONNhp_7N8PSqQTw"
                   }
     })
     .then((response) => {
